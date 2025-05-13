@@ -1,0 +1,309 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>即构科技</title>
+<link rel="icon" type="image/x-icon"  href="C:/Users/zego/Desktop/zego.ico">
+
+</head>
+
+<mera charset="UTF-8">
+
+<style>
+.artilce-container {
+  display: flex;
+  align-items: flex-start; /* 使图片和内容顶部对齐 */
+}
+
+.article-box {
+display: flex;
+border: 2px solid #ccc;
+padding: 15px;
+margin-bottom: 15px;
+border-radius: 30px;
+background-color: #96D4D4;
+transition: background-color 2s ease;
+position: relative; /* 为子元素定位提供基准 */
+}
+
+.article-box:hover{
+background-color:pink;
+}
+
+
+.article-time {
+position: absolute;
+right: -7;
+bottom: -10;
+font-size: 10px;
+color: #555;
+padding: 4px 8px;
+border-radius: 30px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.article-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 10px;
+  align-self: flex-start; /* 顶部对齐 */
+}
+
+.article-content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 120px; /* 与图片同高 */
+  position: relative; /* 时间定位基准 */
+}
+
+.article-content {
+  flex: 1;
+}
+
+
+.article-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  transition: color 1s ease;
+}
+
+.article-title:hover{
+color:orange;
+}
+
+.article-summary {
+  font-size: 12px;
+  color: black;
+  line-height: 1.6;
+}
+
+
+.article-box img {
+width: 170px;
+object-fit: cover;
+margin-right: 15px;
+border-radius: 20px;
+}
+
+.article-box a {
+text-decoration: none;
+color: #333;
+font-size: 16px;
+line-height: 1.5;
+flex: 1;
+}
+
+.article-box a:hover {
+color: red;
+text-decoration: none;
+}
+
+h1{
+font-size:xx-small;
+font-family:Roboto;
+border:3px solid powderblue;
+border-radius:20px;
+display:inline-block;
+padding:10px;
+margin:5px
+}
+
+p{
+font_family:Noto Serif SC;
+text-align:jutify;
+font-size:large;
+}
+
+a:visited {
+color: purple ;
+background-color:transparent;
+text-decoration:none;
+}
+
+a:link {
+color: blue;
+background-color:transparent;
+text-decoration: none;
+}
+   
+a:hover {
+color: red;
+background-color:transparent;
+text-decoration: underline;
+}
+    
+a:active {
+color: orange;
+text-decoration: underline;
+background-color:transparent
+}
+
+.btn-link:link,.btn-link:visited{
+background-color: DarkSlateBlue;
+color: white;
+padding: 15px 0;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-radius: 7px;
+border: 3px solid white;   flex: 1;
+min-width: 50px;
+box-sizing: border-box;
+}
+
+
+
+.btn-link:hover,.btn-link:active{
+background-color:pink;
+}
+
+.button-row{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+gap:10px
+max-width:100%
+margin-top:20px;
+flex-wrap:wrap;
+}
+</style>
+
+<h1>行业百科</h1>
+<br>
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2025/05/2025051208143480.jpg">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/2352.html" target="_blank">
+多重采样是什么意思？多重采样和超级采样哪个好</a>
+      <div class="article-summary">
+        什么是多重采样？ 多重采样，也称为 MSAA（Multisample Anti-Aliasing，多重采样抗锯齿），是一种用于平滑计算机图形中的锯齿边缘（锯齿伪影）并实现更流畅图像…
+      </div>
+    </div>
+    <div class="article-time">2025-05-12</div>
+  </div>
+</div>
+
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2025/05/2025050901325159.jpg">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/2331.html" target="_blank">
+视频质量指标是什么？视频质量指标有哪些</a>
+      <div class="article-summary">
+        什么是视频质量指标？ 为了评估视频内容的视觉质量，人们使用标准化测量方法（称为视频质量指标）来评估视频的各个方面。这些指标可评估视频在多大程度上保持了其预期的视觉...
+      </div>
+    </div>
+    <div class="article-time">2025-05-08</div>
+  </div>
+</div>
+
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2025/05/aiagent.webp">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/2327.html" target="_blank">
+AI agent 与聊天机器人(chatbot) 的区别及选择</a>
+      <div class="article-summary">
+        本文全面分析了 AI agent 和聊天机器人之间的区别，帮助您确定哪一种才是适合您企业的选择。并提供了如何低成本构建 AI agent 的方式。...
+      </div>
+    </div>
+    <div class="article-time">2025-05-07</div>
+  </div>
+</div>
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2025/05/2025050609525359.jpg">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/2323.html" target="_blank">
+什么是运动补偿？运动补偿的应用场景和优缺点</a>
+      <div class="article-summary">
+        什么是运动补偿？ 运动补偿是一种视频压缩和处理技术，用于预测和补偿帧间的运动。其基本思想是识别和模拟物体从一帧到下一帧的运动，通过仅存储帧之间的差异或“残差”而不…
+      </div>
+    </div>
+    <div class="article-time">2025-05-06</div>
+  </div>
+</div>
+
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2025/04/2025042809242543.jpg">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/2304.html" target="_blank">
+群聊派对如何提高约会交友应用程序的参与度</a>
+      <div class="article-summary">
+        随着在线约会交友平台在用户参与度和留存率方面面临越来越大的挑战，许多平台开始将目光投向传统的滑动匹配和一对一视频聊天模式，以创造更具活力的社交体验。一个解决方案…
+      </div>
+    </div>
+    <div class="article-time">2025-04-29</div>
+  </div>
+</div>
+
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2025/04/2025042710043024.jpg">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/2301.html" target="_blank">
+什么是基于边缘的分割？"基于边缘的分割"的原理及优缺点
+</a>
+      <div class="article-summary">
+        
+什么是基于边缘的分割？ 基于边缘的分割用于图像处理和计算机视觉，通过识别和分析图像中的边缘来划分图像中的物体。这种方法的前提是，图像中物体的边界通常对应于强度、…
+      </div>
+    </div>
+    <div class="article-time">2025-04-28</div>
+  </div>
+</div>
+
+
+
+
+<div class="article-box">
+  <img class="article-image" src="https://market-blogs.zego.im/wp-content/uploads/2025/04/tiyuzhibo.webp">
+  <div class="article-content-wrapper">
+    <div class="article-content">
+      <a class="article-title" href="https://www.zego.im/blog/2295.html" target="_blank">
+体育赛事直播中的延迟之争：一致性与灵活切换
+</a>
+      <div class="article-summary">
+        
+流媒体创新重塑了体育赛事直播体验，但成功的关键取决于何时优先考虑实时视频传输，何时考虑一致且可配置的延迟。根据赛事直播的需求调整延迟，是保持粉丝参与度并保持成本      </div>
+    </div>
+    <div class="article-time">2025-04-25</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
